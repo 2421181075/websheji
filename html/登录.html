@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>登录</title>
+		<link rel="stylesheet" href="../css/login.css">
+		<script src="../js/login.js"></script>
+		<style>
+			.mzd3{
+				list-style:none;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="/" method="post">
+		<div class="wrapper">
+		        <div class="logo">
+		            <a href="#" class="logo_a">
+		                <img src="../img/m01-logo.jpg" alt="遨游网">
+		            </a>
+		        </div>
+		        <div class="main" id="main" style="background: rgb(160, 193, 243) none repeat scroll 0% 0%;">
+		            <div class="login-wrapper">
+		                <div class="login-main" style="width: 100%; height: 600px;">
+		                    <ul class="slider">
+		                    	<li style="display: block;"><a href="#" target="_blank"><img id="img1" src="../img/m02.jpg.jpg" class="maxw" style="top: -25.4753px; left: 0px;" width="789" height="428"></a></li>
+		                    	<li style="display: none;"><a href="#" target="_blank"><img id="img2" src="../img/m03.jpg.jpg" class="maxw" style="top: -25.4753px; left: 0px;" width="789" height="428"></a></li>
+	                    	</ul>
+		                </div>
+		                <div class="login-box">
+		                    <div id="loginnormal" class="login-box-top" style="position: relative;">
+		                        <img class="unln_typeimg" src="../img/m04.jpg.png" style=" margin-top: -33px;">
+		                        <ul class="state-change clearfix mzd3">
+		                            <li class="on"><span></span>账号登录</li>
+		                        
+		                        </ul>
+
+		                        <ul class="state-change-con mzd3">
+		                            <li style="display: list-item;">
+		                                <div class="login-input">
+		                                    <input type="text" id="loginname" name="loginname" class="login-input1" placeholder="账号">
+		                                </div>
+		                                <div class="login-input login-inputDiv2">
+		                                    <input type="text" class="login-input2" placeholder="密码">
+		                                    <input type="password" name="" class="login-input2" style="display: none;" id="pwd">
+		                                </div>
+		                                <div id="verifyCode1" class="j-captcha-sense"><input type="hidden" name="NECaptchaValidate" value="" class="yidun_input"></div>
+		                                <div class="login-input login-inputDiv3">
+		                                    <input type="checkbox" id="autologin" name="autoLogin" class="login-input3">
+		                                    <em>自动登录</em>
+		                                    <a href="https://passport.aoyou.com/GetPasswordBack/Index" target="_blank">忘记密码？</a>
+		                                </div>
+		                                <div class="errTipDiv1">
+
+		                                    <p id="errMsg" class="blurTxt"></p>
+		                                </div>
+		                                <div class="login-btnBox">
+		                                    <a href="../index.html" id="btnlogin" class="login-btnBoxSub">登录</a>
+		                                    <a href="注册.html" class="login-btnBoxReg">免费注册</a>
+		                                </div>
+		                            </li>
+		                        </ul>
+		                    </div>
+		                    <div id="loginqr" class="login-box-top" style="height: 355px; padding-top: 0px; display: none;">
+		                        <img class="unln_typeimg" src="../img/m05.jpg.png">
+		                        </div>
+		                        <div class="unln_bottom clearfix">
+		                            <a href="javascript:void(0);" class="unln_bottom1" style="">密码登录</a>
+		                            <a href="注册.html" class="unln_bottom2" style="">免费注册</a>
+		                        </div>
+		                    </div>
+		     </div>
+		    </div>
+		</div>
+		</form>
+	</body>
+</html>

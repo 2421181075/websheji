@@ -1,0 +1,918 @@
+/*
+* @Author: admin
+* @Date:   2019-09-16 11:00:23
+* @Last Modified by:   admin
+* @Last Modified time: 2019-09-23 20:37:14
+*/
+body, div, p, input, ul, li, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input {
+    font: 12px/1.125 Arial,Helvetica,sans-serif;
+    color: #666666;
+}
+
+em, ul, li {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    a:hover {
+        color: #ff6600;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+html {
+    overflow-y: scroll;
+}
+
+img {
+    display: inline;
+    border: none;
+}
+
+body {
+    min-width: 1200px;
+}
+
+area:link {
+    border: 0;
+}
+
+area:hover {
+    border: 0;
+}
+ 
+area:active {
+    border: 0;
+}
+area:after {
+    border: 0;
+}
+
+.clearfix:after, .reg-main:after, .reg-main-box:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+    display: inline;
+}
+
+.fr {
+    float: right;
+    display: inline;
+}
+/**------Login------**/
+.wrapper {
+    width: 100%;
+    background: #fff;
+}
+
+.login-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 1200px;
+    margin: 0 auto;
+    height: 72px;
+    padding: 20px 0 0 0;
+}
+
+.login-main {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+}
+
+.login-box {
+    position: absolute;
+    left: 725px;
+    top: 108px;
+    width: 350px;
+    /*height: 334px;*/
+    border: 1px solid #f3f3f3;
+    background: #ffffff;
+    /*overflow: hidden;*/
+}
+
+.login-box-top {
+    /*height: 319px;*/
+    background: #FFF;
+    padding: 0 28px;
+    padding-top: 35px;
+}
+
+.state-change {
+    margin-top: 15px;
+    margin-bottom: 23px;
+}
+
+    .state-change li {
+        float: left;
+        line-height: 14px;
+        color: #666;
+        margin-right: 32px;
+        font-family: MicrosoftYaHei;
+        font-size: 12px;
+        color: #333333;
+        letter-spacing: 0;
+    }
+
+        .state-change li span {
+            float: left;
+            display: block;
+            width: 14px;
+            height: 14px;
+            margin-right: 5px;
+            background: url(../../passportnew/icon-login.png) no-repeat -14px 0;
+        }
+
+        .state-change li.on {
+            color: #000;
+        }
+
+            .state-change li.on span {
+                background-position: 0 0;
+            }
+
+.state-change-con {
+    /*width: 240px;*/
+    /*height: 220px;*/
+    /*overflow: hidden;*/
+}
+
+    .state-change-con li {
+        float: left;
+        display: none;
+    }
+
+.login-input {
+    display: block;
+    height: 36px;
+    /*overflow: hidden;*/
+}
+
+    .login-input .login-input1, .login-input .login-input2, .login-input .login-input4, .login-input .login-input5 {
+        display: block;
+        width: 258px;
+        height: 34px;
+        padding: 0px 15px 0 15px;
+        overflow: hidden;
+        color: #888888;
+        font: 12px/33px 'å®‹ä½“\0ï¼›*font: 12px/33px 'å®‹ä½“;
+        border: 1px solid #cccccc;
+        background: url(../../passportnew/login-icon.png) 255px 0 no-repeat;
+        -webkit-transition: all ease-out 0.5s;
+        outline-style: none;
+        font-family: MicrosoftYaHei;
+        font-size: 14px;
+        color: #999999;
+        letter-spacing: 0;
+    }
+
+    .login-input input:hover, .login-input input:focus {
+        border-color: #ff6600;
+    }
+
+.login-inputDiv2, .login-inputDiv4 {
+    margin: 13px 0 0 0;
+    position: relative;
+}
+
+.login-inputDiv3 {
+    height: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+.login-input .login-input2 {
+    background: url(../../passportnew/login-icon.png) 255px -31px no-repeat;
+}
+
+.login-input .login-input3 {
+    vertical-align: middle;
+    margin: 0;
+    background: none;
+}
+
+.login-input .login-input4 {
+    background: url(../../passportnew/login-icon.png) 214px -105px no-repeat;
+}
+
+.login-box .errTipDiv1 {
+    /*padding-top:4px;*/
+}
+
+.login-box .errTipDiv2 {
+    padding-top: 6px;
+}
+
+.login-box .errTipDiv3 {
+    /*padding-top:4px;*/
+}
+
+.login-input em {
+    display: inline-block;
+    font: 12px 'microsoft yahei';
+    color: #888888;
+    margin: 0 10px 0 0;
+    *display: inline;
+    *zoom: 1;
+}
+
+.login-inputDiv3 a {
+    display: inline-block;
+    font: 12px "microsoft yahei";
+    color: #2979c9;
+}
+
+.login-input3 a:hover {
+    color: #ff6600;
+}
+
+.login-btnBox {
+    height: 42px;
+    display: block;
+    margin: 0 0 30px 0;
+}
+
+.login-btnBoxSub {
+    display: inline-block;
+    width: 174px;
+    height: 39px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #ff6600;
+    text-align: center;
+    font: 20px/39px 'microsoft yahei';
+    color: #ff6600;
+    -webkit-transition: all ease 0.2s;
+    *display: inline;
+    *zoom: 1;
+}
+
+    .login-btnBoxSub:hover {
+        text-decoration: none;
+        background: #ff6600;
+        color: #fff;
+    }
+
+.login-btnBoxSub {
+    display: inline-block;
+    width: 208px;
+    height: 34px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #ff6600;
+    text-align: center;
+    font: 16px/30px 'microsoft yahei';
+    color: #ff6600;
+    margin: 0 24px 0 0;
+    *margin: 0 5px 0 0;
+    *display: inline;
+    *zoom: 1;
+}
+
+.login-btnBoxReg {
+    display: inline-block;
+    overflow: hidden;
+    font: 12px/39px 'microsoft yahei';
+    color: #ff6600;
+    *display: inline;
+    *zoom: 1;
+}
+
+.login-friend {
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 0 54px;
+}
+
+.login-friend-p, .login-friend-a {
+    display: block;
+    font: 12px/14px "microsoft yahei";
+    color: #888888;
+}
+
+.login-friend-p {
+    margin: 0 0 10px 0;
+}
+
+.login-friend-a {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    /*border-right: 1px solid #cccccc;*/
+    *display: inline;
+    *zoom: 1;
+}
+
+.no-border {
+    border: 0;
+}
+
+.ad-prev, .ad-next {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url(../../passportnew/login-icon.png) -3px -66px no-repeat;
+    position: absolute;
+    top: 560px;
+    text-indent: -9999em;
+    opacity: 0.8;
+}
+
+.ad-prev {
+    left: 1025px;
+}
+
+.ad-next {
+    left: 1050px;
+    background-position: -3px -84px;
+}
+
+    .ad-prev:hover, .ad-next:hover {
+        opacity: 1;
+    }
+
+.slider {
+    display: block;
+}
+
+    .slider li {
+        position: absolute;
+        left: 0;
+        top: 62px;
+        display: none;
+        width: 789px;
+        height: 428px;
+    }
+/*æ³¨å†Œé¡µé¢*/
+.reg-main, .reg-success {
+    width: 1198px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+}
+
+.reg-main-h2 {
+    display: block;
+    width: 550px;
+    margin: 0 0 0 275px;
+    padding: 28px 0 0 0;
+    color: #555555;
+}
+
+    .reg-main-h2 h2 {
+        float: left;
+        font: 24px/30px 'microsoft yahei';
+    }
+
+    .reg-main-h2 em {
+        float: left;
+        width: 6px;
+        height: 20px;
+        background: #ff750f;
+        margin: 5px 10px 0 0;
+    }
+
+    .reg-main-h2 p {
+        float: right;
+        font: 14px/35px 'microsoft yahei';
+        color: #ff750f;
+        zoom: 1;
+    }
+
+.reg-main-box {
+    width: 853px;
+    padding: 0 0 0 345px;
+}
+
+    .reg-main-box .reg-main-boxLabel {
+        float: left;
+        width: 90px;
+        font: 14px/50px 'å®‹ä½“';
+        color: #888888;
+        text-align: right;
+    }
+
+    .reg-main-box .reg-input-tel {
+        float: left;
+        width: 246px;
+        height: 33px;
+        font: 12px 'å®‹ä½“';
+        padding: 0px 40px 0 10px;
+        border: 1px solid #cccccc;
+        outline: none;
+        margin: 5px 0 0 0;
+    }
+
+        .reg-main-box .reg-input-tel:focus {
+            border: 1px solid #ff6600;
+        }
+
+    .reg-main-box .tel {
+        background: url(../../passportnew/reg-icon.png) 260px 0 no-repeat;
+    }
+
+    .reg-main-box .reg-main-star {
+        float: left;
+        font: 12px/50px 'å®‹ä½“';
+        color: #ff750f;
+        margin: 0 10px 0 10px;
+    }
+
+.yanzhengma {
+    float: left;
+    width: 86px;
+    height: 23px;
+    background: #ff9b0c;
+    border: 1px solid #e58300;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font: 12px/23px 'å®‹ä½“';
+    margin: 12px 9px 0 0;
+}
+
+    .yanzhengma:hover {
+        text-decoration: underline;
+    }
+
+.yanzhengma2 {
+    width: 106px;
+    background: #f0f0f0;
+    border: 1px solid #cccccc;
+    color: #555555;
+    cursor: default;
+}
+
+    .yanzhengma2:hover {
+        text-decoration: none;
+    }
+
+.reg-main-box .yzm {
+    width: 126px;
+}
+
+.reg-main-box .password {
+    background: url(../../passportnew/reg-icon.png) 260px -33px no-repeat;
+}
+
+.reg-main-box .reg-main-tips {
+    float: left;
+    width: 247px;
+    height: 33px;
+    padding: 0 0 0 5px;
+    border: 1px solid #cccccc;
+    background: #f7f7f7;
+    font: 12px/16px 'å®‹ä½“';
+    color: #888888;
+    margin: 5px 0 0 0;
+}
+
+.reg-main-tips-terms {
+    float: left;
+    width: 247px;
+    height: 33px;
+    padding: 0 0 0 5px;
+    border: 1px solid #cccccc;
+    background: #f7f7f7;
+    font: 12px/16px 'å®‹ä½“';
+    color: #888888;
+    margin: 5px 0 0 0;
+}
+
+.reg-main-box .reg-main-tips2 {
+    font: 12px/33px 'å®‹ä½“';
+}
+
+.reg-main-tips2-terms {
+    font: 12px/33px 'å®‹ä½“';
+}
+
+.passwordTips {
+    float: left;
+}
+
+.passwordTipsBox {
+    float: left;
+    height: 18px;
+    margin: 0 0 0 225px;
+}
+
+.passwordTips1 {
+    float: left;
+    width: 34px;
+    height: 13px;
+    margin: 0 1px 0 0;
+    text-align: center;
+    background: #c4c4c4;
+    font: 10px/13px 'Microsoft yahei';
+    color: #FFF;
+}
+
+.passwordTips2 {
+    background: #f79100;
+}
+
+.reg-main-checkbox {
+    float: left;
+    margin: 10px 0 0 100px;
+}
+
+.input-checkbox, .reg-main-checkboxP, .reg-main-checkboxA {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.reg-main-checkboxP {
+    color: #888888;
+    margin: 0 0 0 0;
+}
+
+.reg-main-checkboxA {
+    color: #006699;
+}
+
+.subBtn {
+    display: block;
+    width: 174px;
+    height: 39px;
+    border: 1px solid #f79100;
+    text-align: center;
+    font: 20px/39px 'Microsoft yahei';
+    color: #f79100;
+    border-radius: 5px;
+    margin: 30px 0 50px 90px;
+}
+
+    .subBtn:hover {
+        text-decoration: none;
+        background: #ff750f;
+        color: #FFF;
+    }
+
+.reg-main-box .green {
+    background: url(../../passportnew/reg-icon.png) 260px -66px no-repeat;
+}
+
+.reg-main-box2 .green {
+    background: url(../../passportnew/reg-icon.png) 140px -66px no-repeat;
+}
+
+.reg-main-box .blur, .blur, .login-input .blur {
+    border-color: #ff4000;
+    background-color: #ffeded;
+    color: #d90000;
+}
+
+.reg-success-main {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reg-success {
+    padding: 60px 0 0 0;
+}
+
+.reg-success-h2 {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 0 60px;
+    width: 250px;
+    height: 50px;
+    font: 24px/40px 'microsoft yahei';
+    color: #7abd54;
+    background: url(../../passportnew/reg-icon.png) 30px -106px no-repeat;
+}
+
+.reg-success-p1 {
+    display: inline-block;
+    font: 14px/30px 'microsoft yahei';
+    color: #888888;
+    *display: inline;
+    zoom: 1;
+}
+
+    .reg-success-p1 em {
+        color: #ff750f;
+        font-weight: bold;
+    }
+
+.link-index {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font: 14px/30px 'å®‹ä½“';
+    color: #006699;
+    text-decoration: underline;
+    *display: inline;
+    zoom: 1;
+}
+
+.reg-success-ad {
+    display: block;
+    width: 1100px;
+    height: 120px;
+    overflow: hidden;
+    margin: 100px auto 30px auto;
+}
+
+.blurTxt {
+    height: 25px;
+    font: 12px/25px 'microsoft yahei';
+    color: #ff4000;
+    text-align: left;
+}
+
+.logo_a {
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    width: 155px;
+}
+
+.logo {
+    display: block;
+    font: 12px/32px 'å®‹ä½“';
+    color: #000;
+    letter-spacing: 0.6px;
+}
+
+.login-union-a {
+    display: inline-block;
+    vertical-align: middle;
+    *display: inline;
+}
+
+.login-inputDiv22 {
+    margin-top: 14px;
+}
+
+    .login-inputDiv22 .login-input2 {
+        font-family: "microsoft yahei";
+        width: 150px;
+        background: url(../../passportnew/login-icon.png) 150px -31px no-repeat;
+    }
+
+    .login-inputDiv22 .get-pswd {
+        display: block;
+        width: 90px;
+        height: 32px;
+        text-align: center;
+        color: #2979c9;
+        font: 12px/32px "microsoft yahei";
+        background: #e5f5fe;
+        border: 1px solid #c9d5e1;
+    }
+
+    .login-inputDiv22 .repeat-pswd {
+        color: #fff;
+        background: #c0c0c0;
+        border: 1px solid #a9a9a9;
+    }
+
+.login-inputDiv33 {
+    margin-top: 15px;
+    height: 58px;
+}
+
+    .login-inputDiv33 .yzm-text {
+        font-family: "microsoft yahei";
+        text-align: right;
+    }
+
+        .login-inputDiv33 .yzm-text a {
+            font-family: "microsoft yahei";
+            color: #2979c9;
+        }
+
+            .login-inputDiv33 .yzm-text a:hover {
+                color: #2979c9;
+            }
+
+.login-noreg {
+    margin-top: 10px;
+    height: 65px;
+    display: none;
+}
+
+.login-yzmDiv {
+    position: relative;
+    width: 238px;
+    height: 34px;
+    margin-bottom: 4px;
+}
+
+    .login-yzmDiv img {
+        position: absolute;
+        right: -48px;
+        top: 2px;
+        _top: 3px;
+        *top: 3px;
+    }
+
+.login-input .login-input5 {
+    background-image: none;
+}
+
+.login-btnBox2 {
+    /*margin-top: 10px;*/
+}
+
+.login-btnBoxReg2 {
+    width: 288px;
+    height: 34px;
+    margin: 0;
+}
+
+.login-noRegText {
+    line-height: 21px;
+    font-family: "microsoft yahei";
+    display: none;
+}
+
+    .login-noRegText span a {
+        color: #fd7527;
+    }
+
+#p_block {
+    overflow: hidden;
+}
+
+
+
+
+/*unionlogin start*/
+.unln_title {
+    font-size: 20px;
+    padding-top: 26px;
+    font: 18px 'microsoft yahei';
+    color: #333;
+    font-weight: bold;
+}
+
+.unln_middle {
+    height: 175px;
+}
+
+.unln_qr {
+    /*padding: 25px 75px;*/
+    padding-top: 25px;   
+    width: 140px;
+    height: 140px;
+    /*position: absolute;*/
+    text-align: center;
+}
+
+.unln_scan {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 75px;
+}
+
+.unln_lose {
+    padding: 25px 75px;
+    width: 150px;
+    height: 125px;
+    position: absolute;
+    text-align: center;
+    display: none;
+    background: #fff;
+    opacity: 0.9;
+    position: absolute;
+    /*filter: alpha(opacity=0.9);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0.9);*/
+}
+
+.unln_refreshbtn {
+    display: inline-block;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #ff6600;
+    text-align: center;
+    font: 15px/30px 'microsoft yahei';
+    background: #ff6600;
+    color: #ffffff;
+    width: 105px;
+    height: 32px;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+    .unln_refreshbtn:hover {
+        color: #ffffff;
+    }
+
+.unln_msg1 {
+    margin-left: 86px;
+    text-align: left;
+    height: 50px;
+    margin-top: 18px;
+}
+
+.unln_msg2 {
+    margin-left: 86px;
+    display: none;
+    height: 70px;
+    margin-left: 13px;
+    text-align: center;
+}
+
+.unln_bottom {
+    /*height: 20px;*/
+    width: auto;
+    margin-top: 16px;
+}
+
+.unln_bottom1 {
+    float: left;
+    margin-left: 155px;
+    font: 12px/39px 'microsoft yahei';
+    color: #555;
+    font-weight: bold;
+}
+
+.unln_bottom2 {
+    float: left;
+    margin-left: 30px;
+    font: 12px/39px 'microsoft yahei';
+    color: #555;
+    font-weight: bold;
+}
+
+.unln_typeimg {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+/*unionlogin end*/
+.j-captcha-sense {
+    float:left;
+    width:300px;
+}
+.login-box-top .j-captcha-sense {
+    float:left;
+    width:290px;
+}
+
+        .login-main ul{
+            width: 9999px;
+            height: 428px;
+        }
+        .login-main ul li{
+            float: left;
+            width: 789px;
+            height: 428px;
+        }
+        .login-main ul li img {
+            width: 789px;
+            height: 428px
+        }
+        .login-main ol li{
+            border: 1px solid #f5861d;
+            border-radius: 50%;
+            margin-right: 10px;
+            float: left;
+            height: 5px;
+            width: 5px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .login-main .current2 {
+            background: #f5861d;
+        }

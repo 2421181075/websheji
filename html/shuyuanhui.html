@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>世园会</title>
+    
+    <link rel="stylesheet" href="../css/shiyuanhui.css">
+
+	<script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/shiyuanhui.js"></script>
+    <script>
+        $(function(){
+            $('.tab_nav>li').on({
+                click:function(){
+                    // console.log($(this).index());
+                    var a = $(this).index();
+                    // console.log(a);
+                    switch(a){
+                        case 1:
+                        $('.tab_con>img').attr('src','../img/m_5wp2.jpg');
+                        $('.text>.tab_tit').html('中国馆');
+                        $('.text>.tab_jj').html('融于一片种植着稃壳各色谷物的梯田之中。馆内可观赏现代数字技术再现的《富春山居图》等，及各色主题园艺花卉展。');
+                        break;
+                        case 2:
+                        $('.tab_con>img').attr('src','../img/img02.jpg');
+                        $('.text>.tab_tit').html('植物馆');
+                        $('.text>.tab_jj').html('植物馆的建筑设计理念为“升起的地平”，建筑表面机理以植物根系为灵感，庞大的垂坠根系向下不断蔓延。');
+                        break;
+                        case 3:
+                        $('.tab_con>img').attr('src','../img/img03.jpg');
+                        $('.text>.tab_tit').html('国际馆');
+                        $('.text>.tab_jj').html('由94把花伞构成，如同一片花海飘落在园区里。国际馆将在会期承担世界各国、国际组织室内展览以及举办国际园艺竞赛的功能。');
+                        break;
+                        case 4:
+                        $('.tab_con>img').attr('src','../img/img04.jpg');
+                        $('.text>.tab_tit').html('内地剧场');
+                        $('.text>.tab_jj').html('为游客们提供一个优美的田园集市，体验文明现代的生活方式，感受中国传统园艺文化和园艺创新科技带来的快乐。');
+                        break;
+                        case 5:
+                        $('.tab_con>img').attr('src','../img/img05.jpg');
+                        $('.text>.tab_tit').html('生活体验馆');
+                        $('.text>.tab_jj').html('建筑设计理念为“升起的地平”，建筑表面积理以植物根系为灵感，庞大的庞大的垂坠根系向下不断蔓延。');
+                        break;
+                    }
+                }
+            })
+        })
+    </script>
+
+</head>
+<body id="body">
+    <!-- 头部 -->
+    <div class="header">
+        <div class="headtop">
+            <div class="topnav">
+                <div class="inner_top_act_small clearfix">
+                    <div class="headright clearfix">
+                        <span class="welcome"></span>
+                        <a href="登录.html" target="_self" class="login">请登录</a>
+                        <span class="fenge"></span>
+                        <a href="注册.html" target="_blank" class="register">免费注册</a>
+                        <a href="#" target="_self" class="logout hidden">[退出]</a>
+                        <span>我的订单</span>
+                        <span>我的遨游</span>
+                    </div>
+                    <div class="headleft clearfix">
+                        <i class="icon-zql"></i>
+                        <span class="head_tip_brand">中青旅  A股上市（600138）中国光大集团成员企业</span>
+                        <span class="head_tip">2019世园会全球合作伙伴</span>
+                    </div>
+                </div>
+            </div>
+            <div class="topcon_small">
+                <div class="inner_top_index_small clearix">
+                  <div class="logo_index_small">
+                      <a href="#" class="logo_a_small"></a>
+                  </div> 
+                  <div class="topcon_small_nav">
+                      <a href="../index.html" target="_blank" class="on">首页</a>
+                      <a href="#" target="_blank" class="on">抢游惠</a>
+                      <a href="#" target="_blank" class="on">百变自由行</a>
+                      <a href="#" target="_blank" class="on">跟团游</a>
+                      <a href="#" target="_blank" class="on">邮轮</a>
+                      <a href="#" target="_blank" class="on">亲子旅行</a>
+                      <a href="#" target="_blank" class="on">户外旅行</a>
+                      <a href="#" target="_blank" class="on">签证</a>
+                      <a href="#" target="_blank" class="on">机票</a>
+                      <a href="#" target="_blank" class="on">当地玩乐</a>
+                      <a href="#" target="_blank" class="on">高端旅行</a>
+                      <a href="#" target="_blank" class="on">遨游定制</a>
+                      <a href="#" target="_blank" class="on">出境福利</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 首页图 -->
+    <div class="banner-box">
+        <div class="banner banner1"></div>
+        <div class="banner banner2"></div>
+        <div class="banner banner3"></div>
+        <div class="banner banner4"></div>
+        <div class="banner banner5"></div>
+    </div>
+    
+    <div class="wrapper">
+        <!-- 超值门票 -->
+        <div class="content wrapper00" id="wrapper00">
+            <div class="main-bg con00">
+                <div class="main">
+                    <div class="tit"></div>
+                    <div class="con">
+                        <ul class="clearfix" id="con0001">
+                            <li class="itemtwo">
+                                <a class="f1" href="#" target="_blank">
+                                    <span class="corner" style="background: url(&quot;../img/corner01.png&quot;) no-repeat;"></span>
+                                    <img src="../img/f1.jpg" alt="">
+                                </a>
+                                <div class="fr">
+                                    <h3>
+                                        <a href="#" target="_blank" title="【当天和次日票】 2019年中国北京世界园艺博览会门票">【当天和次日票】 2019年中国北京世界园艺博览会门票</a>
+                                    </h3>
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                    <div class="clearfix">
+                                        <p class="price">
+                                            <span>￥</span>
+                                            80
+                                            <b>起/人</b>
+                                        </p>
+                                        <a class="reserve-btn" href="" target="_blank">立即预订</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="itemtwo" style="margin-right: 0px;">
+                                <a class="f1" href="#" target="_blank">
+                                    <span class="corner" style="background: url(&quot;../img/corner01.png&quot;) no-repeat;"></span>
+                                    <img src="../img/f1.jpg" alt="">
+                                </a>
+                                <div class="fr">
+                                    <h3>
+                                        <a href="#" target="_blank" title="【提前2天9折】 2019年中国北京世界园艺博览会门票">【提前2天9折】 2019年中国北京世界园艺博览会门票</a>
+                                    </h3>
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                    <div class="clearfix">
+                                        <p class="price">
+                                            <span>￥</span>
+                                            80
+                                            <b>起/人</b>
+                                        </p>
+                                        <a class="reserve-btn" href="#" target="_blank">立即预订</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="itemtwo">
+                                <a class="f1" href="#" target="_blank">
+                                    <span class="corner" style="background: url(&quot;../img/corner01.png&quot;) no-repeat;"></span>
+                                    <img src="../img/f1.jpg" alt="">
+                                </a>
+                                <div class="fr">
+                                    <h3>
+                                        <a href="#" target="_blank" title="2019年中国北京世界园艺博览会公交联票">2019年中国北京世界园艺博览会公交联票</a>
+                                    </h3>
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                    <div class="clearfix">
+                                        <p class="price">
+                                            <span>￥</span>
+                                            125
+                                            <b>起/人</b>
+                                        </p>
+                                        <a class="reserve-btn" href="#" target="_blank">立即预订</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="itemtwo" style="margin-right: 0px;">
+                                <a class="f1" href="#" target="_blank">
+                                    <span class="corner" style="background: url(&quot;../img/corner.png&quot;) no-repeat;"></span>
+                                    <img src="../img/f2.jpg" alt="">
+                                </a>
+                                <div class="fr">
+                                    <h3>
+                                        <a href="#" target="_blank" title="2019北京世园会1日游【导游带队/直通车/纯玩精选/全天游览】">2019北京世园会1日游【导游带队/直通车/纯玩精选/全天游览】</a>
+                                    </h3>
+                                    <ul>
+                                        <li>3种套餐随心选</li>
+                                    </ul>
+                                    <div class="clearfix">
+                                        <p class="price">
+                                            <span>￥</span>
+                                            179
+                                            <b>起/人</b>
+                                        </p>
+                                        <a class="reserve-btn" href="#" target="_blank">立即预订</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="itemtwo">
+                                <a class="f1" href="#" target="_blank">
+                                    <span class="corner" style="background: url(&quot;../img/corner.png&quot;) no-repeat;"></span>
+                                    <img src="../img/f3.jpg" alt="">
+                                </a>
+                                <div class="fr">
+                                    <h3>
+                                        <a href="#" target="_blank" title="【萤火虫party】2019北京世园会2日游【植物讲解/手绘画本/木偶聚会/萤火虫派对】">【萤火虫party】2019北京世园会2日游【植物讲解/手绘画本/木偶聚会/萤火虫派对】</a>
+                                    </h3>
+                                    <ul>
+                                        <li>长城脚下的萤火虫派对/十大明星植物／多款美味套餐／赠送植物护照</li>
+                                    </ul>
+                                    <div class="clearfix">
+                                        <p class="price">
+                                            <span>￥</span>
+                                            1399
+                                            <b>起/人</b>
+                                        </p>
+                                        <a class="reserve-btn" href="../html/xiangqing.html" target="_blank">立即预订</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="itemtwo" style="margin-right: 0px;">
+                                <a class="f1" href="#" target="_blank">
+                                    <span class="corner" style="background: url(&quot;../img/corner.png&quot;) no-repeat;"></span>
+                                    <img src="../img/f1.jpg" alt="">
+                                </a>
+                                <div class="fr">
+                                    <h3>
+                                        <a href="#" target="_blank" title="【小小园艺师】北京世园会1日游">【小小园艺师】北京世园会1日游</a>
+                                    </h3>
+                                    <ul>
+                                        <li>十大明星植物／多款美味套餐／赠送植物护照</li>
+                                    </ul>
+                                    <div class="clearfix">
+                                        <p class="price">
+                                            <span>￥</span>
+                                            458
+                                            <b>起/人</b>
+                                        </p>
+                                        <a class="reserve-btn" href="#" target="_blank">立即预订</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 遨游世园会 -->
+        <div class="content wrapper01" id="wrapper01">
+            <div class="main con01">
+                <div class="tit">
+                    <div class="text-hidden">遨游世园会 认准中青旅</div>
+                </div>
+                <div class="con">
+                    <div class="clearfix">
+                        <div class="f1 left">
+                            <p>长城脚下的万花之园</p>
+                            <p class="red">A1级国际园艺博览会</p>
+                            <p class="red">祖国70华诞献礼</p>
+                            <p>园区规划总面积</p>
+                            <p class="red">110个国家及组织确认参展</p>
+                            <p>120多个非官方参展者确认参展</p>
+                        </div>
+                        <div class="fr right">
+                            <p>100多个特色展园</p>
+                            <p class="red">2019世界花艺大赛</p>
+                            <p>预计1600万人次参观游览</p>
+                            <p class="red">2500多场文化活动</p>
+                            <p class="red">1200多种植物展示</p>
+                            <p>180场“花车巡游”活动</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 四种玩法 -->
+        <div class="content wrapper02" id="wrapper02">
+            <div class="text-hidden">
+                四种玩法 · 玩转世园<br>                欢乐全家总动员之旅<br>                适合：想与宝宝共享美好假期的你<br>                2号门——国际馆——花车巡游——中华园艺展示区——园内用午餐——儿童乐园——植物馆<br>                四川园 “莫莉和她的一家人”<br>                网红地打卡拍照之旅<br>                适合:热衷于朋友圈摄影大赛的你<br>                1号门——5G展园——百草园——植物馆——远眺永宁阁——中国馆——中华园艺展示区——园内用午餐——国际馆——花车巡游——世界园艺展示区——生活体验馆<br>                时光园 Teamlab沉浸式数字艺术展<br>                拥抱自然小清新之旅<br>                适合：有些文艺又热爱自然的你<br>                2号门——世界园艺轴景观——世界园艺展示区——妫汭湖畔漫步——园内午餐——远眺永宁阁——天田山花田——百果园——大师园——5G展园——山水园艺轴景观——中华园艺展示区<br>                植物馆 自然生态展示区<br>                激爽“躺玩畅吃”之旅<br>                适合: 走一步就累，过一会就饿的你<br>                5号门——车览妫汭湖——下车远眺永宁阁——天田山花田、荷风馆、竹里馆、幽兰亭——中国馆——大师园——中华园艺展示区——国际馆——乘车回到5号门<br>                中国馆 北京园
+            </div>
+            <div class="bg bg1"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <div class="bg bg4"></div>
+            <div class="bg bg5"></div>
+            <div class="bg bg6"></div>
+            <div class="bg bg7"></div>
+            <div class="bg bg8"></div>
+            <div class="bg bg9"></div>
+            <div class="bg bg10"></div>
+            <div class="bg bg11"></div>
+            <div class="bg bg12"></div>
+            <div class="bg bg13"></div>
+            <div class="bg bg14"></div>
+            <div class="bg bg15"></div>
+            <div class="bg bg16"></div>
+            <div class="bg bg17"></div>
+        </div>
+        <!-- 世园问答 -->
+        <div class="content wrapper03" id="wrapper03">
+            <div class="main con03">
+                <div class="tit">
+                    <div class="text-hidden">
+                        世园会在哪？我要怎么过去呢？<br>                        北京世园会位于北京市延庆区百泉街17号。横跨妫河两岸，距北京市中心约2小时车程，游客可自驾，或乘坐公交Y9、Y10、919、市郊铁路S2线等前往园区。<br>                        为保障交通问题，京张铁路也增加了往返的频次，每天增加到16对。去年年底，京礼高速也已经通车，为市民的出行提供便捷。<br>                        要提前很久去门口排长队入园么？<br>                        园区内有200个电瓶车可供使用，另外园区内设计了可同时供1.5万人休息的座椅，在保护一批原生树以外，又种植了一批植物，保证大家能在林荫下凉爽地浏览。<br>                        园区在市郊，会不会信号不好？<br>                        游客可通过预约信息提示入园，均衡客流，同时园内覆盖WIFI提供无线上网服务。<br>                        玩一整天，饿了怎么办呢？<br>                        园区内均衡地安排了一些餐饮服务，目前已确认17家企业到园区服务。快餐为主，正餐为辅，中西餐结合，保证游客用餐的方便与安全。
+                    </div>
+                </div>
+                <div class="con">
+                    <div class="box">
+                        <div class="box-m">
+                            <img src="../img/m_4wp1.png" alt="" width="999" height="2019">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 世园十二景 -->
+        <div class="content wrapper04" id="wrapper04">
+            <div class="main con04">
+                <div class="tit">
+                   <img src="../img/m_tit04.png" alt="">
+                </div>
+                <div class="con" id="con04">
+                    <div class="box">
+                        <ul id="start1">
+                            <li><img src="../img/m_tit06.png" alt=""></li>
+                            <li><img src="../img/m_tit07.png" alt=""></li>
+                        </ul>
+
+                        <ol id="cl">
+                            <li class="current"></li>
+                            <li></li>
+                        </ol>
+                    </div>
+                    <div class="left" id="lef"></div>
+                    <div class="right" id="rig"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 四馆一心 -->
+        <div class="content wrapper05" id="wrapper05">
+            <div class="main con05">
+                <div class="tit"></div>
+                <div class="con">
+                    <div class="clearfix">
+                        <div class="tab_nav">
+                            <img src="../img/m_5wp1.png" alt="">
+                            <li class="nav01">中国馆</li>
+                            <li class="nav02">植物园</li>
+                            <li class="nav03">国际馆</li>
+                            <li class="nav04">内地剧场</li>
+                            <li class="nav05">生活体验馆</li>
+                        </div>
+                        <div class="tab_con">
+                            <img src="../img/m_5wp2.jpg" alt="">
+                            <div class="text">
+                                <h3 class="tab_tit">中国馆</h3>
+                                <p class="tab_jj">融于一片种植着稃壳各色谷物的梯田之中。馆内可观赏现代数字技术再现的《富春山居图 》等，及各色主题园艺花卉展。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--唯美园区一览  -->
+        <div class="content wrapper06" id="wrapper06">
+            <div class="main con06">
+                <div class="tit">
+                    <div class="text-hidden">
+                        ·云南园·<br>                        云南园匠心独具，以山川为基、河流为脉、古道串联、建筑点睛，呈现出一个原生态的植物王国。占地3000平方米，流线形的茶马古道贯穿南北，游路、水流、山石点缀其中，吉象迎宾、雀舞广场、茶语清心、风花雪月、湖光山色、沁芳坪、茶马印记、云峰飞瀑、枕峦亭、云岭花台、樱花谷、石林可园共“十二景”星罗棋布。<br>                        ·安徽园·<br>                        在安徽园中部，水系环绕着古村落意境的建筑小品，东西两侧是山野景观，西北侧是微地形和乔木林，营造出村落背依青山的意境，园中种植着安徽特色植物，展现安徽园的徽风古韵。园区由水口园林区、村落文化及生活园艺展示区、田野园艺区三部分组成，以蜿蜒的水系及徽州特色的青石板游览路串联成有机交织的整体。<br>                        ·西藏园·<br>                        五彩经幡、鲜花柱、格桑花田、雪水溪流，这些西藏自治区特有的风物，可在西藏展园逐一欣赏。吞巴村是西藏自治区千年古村落之一，西藏园将以吞巴民居为核心，融合鲜花柱、五彩经幡、雪水溪流、格桑花、玛尼堆、雪山等元素，织绘出一幅展现尼木吞巴风光和当地幸福人居的画卷。<br>                        ·广东园·<br>                        广东园以岭南水乡为骨架，前庭后院、内外相连。一池春水生、满园芳华盛，展园的廊、桥、亭、轩皆依水而建。环园行走，经南粤坊、入胜亭、丝香阁、倚翠廊、蝶翠轩、盆景园、里仁洞、琉璃宫，六大景点——南粤寄思、南粤记忆、月照仙馆、故乡水韵、泮塘荷风、花房晨光穿插其中，四时流转皆可在园中得以体验。<br>                        ·桃源乡展园·<br>                        日本著名设计师石原和幸先生以《桃花源记》为灵感，采用原石矮墙将展园部分遮挡，通过日式门坊将游客引入园中，后引导游客穿梭于花草林木中的蜿蜒小路。逐渐登至高处，最高处设置一座日式八角凉亭，置身亭中可俯瞰全园。庭园中多为水面，有丰富的瀑布与近水植物景观。水池采用自然形态，弱化人工雕琢痕迹。<br>                        ·宁夏园·<br>                        宁夏展园以“塞上江南 印象宁夏”为主题，从水韵、红色、生态、回乡四个方面展示宁夏特色的风俗、文化、艺术和特色的植物、花卉资源。展园模拟六盘山的山势山形，以土石堆砌形成六盘山微缩景观，山间精细种植特色植物，于六盘山上题刻《清平乐·六盘山》词，以园艺手法展现红军长征精神。
+                    </div>
+                </div>
+                <div class="con" id="con06">
+                    <div class="box2">
+                        <!-- <div class="boxcon2" style="z-index: 2; display: block;">
+                            <img src="../img/m_6wp2.png" alt="">
+                        </div>
+                        <div class="boxcon2" style="z-index: 1; display: block;">
+                            <img src="../img/m_6wp1.png" alt="">
+                        </div> -->
+                        <ul id="start2">
+                            <li><img src="../img/m_6wp2.png" alt=""></li>
+                            <li><img src="../img/m_6wp1.png" alt=""></li>
+                        </ul>
+
+                        <ol id="cl2">
+                            <li class="current2"></li>
+                            <li></li>
+                        </ol>
+                    </div>
+                    <div class="left2" id="lef2"></div>
+                    <div class="right2" id="rig2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="foot clearfix">
+            <div class="foot_img">
+                <img src="../img/foot1.gif" alt="" width="1200" height="116">
+            </div>
+            <div class="help clearfix">
+                <div class="helpcol1">
+                    <div class="tt">购买指南</div>
+                    <a href="#" target="_blank" class="coll_a">旅行预订流程</a>
+                    <a href="#" target="_blank" class="coll_a">出入境卡填写</a>
+                    <a href="#" target="_blank" class="coll_a">出境签证解答</a>
+                    <a href="#" target="_blank" class="coll_a">预订常见问题</a>
+                    <strong>
+                        <a href="#" target="_blank" class="coll_a">中青旅门店地址</a>
+                    </strong>
+                </div>
+                <div class="helpcol2">
+                    <div class="tt">合同、发票、保险</div>
+                    <a href="#" target="_blank" class="coll_a">旅游度假资源</a>
+                    <a href="#" target="_blank" class="coll_a">旅游合同范本</a>
+                    <a href="#" target="_blank" class="coll_a">发票开具说明</a>
+                    <a href="#" target="_blank" class="coll_a">旅游保险问题</a>
+                </div>
+                <div class="helpcol3">
+                    <div class="tt">支付方式</div>
+                    <a href="#" target="_blank" class="coll_a">订单支付方式</a>
+                    <a href="#" target="_blank" class="coll_a">在线支付限额</a>
+                    <a href="#" target="_blank" class="coll_a">积分折现</a>
+                    <a href="#" target="_blank" class="coll_a">优惠券说明</a>
+                    <a href="#" target="_blank" class="coll_a">中青旅互通卡</a>
+                </div>
+                <div class="helpcol4">
+                    <div class="tt">其他事项</div>
+                    <a href="#" target="_blank" class="coll_a">网站优惠政策</a>
+                    <a href="#" target="_blank" class="coll_a">订单取消政策</a>
+                    <a href="#" target="_blank" class="coll_a">退款常见问题</a>
+                    <a href="#" target="_blank" class="coll_a">投诉与建议</a>
+                    <a href="#" target="_blank" class="coll_a">投资者关系</a>
+                </div>
+                <div class="helpcol5">
+                    <div class="tt">聚焦中青旅</div>
+                    <a href="#" target="_blank" class="coll_a">中青旅会展旅游</a>
+                    <a href="#" target="_blank" class="coll_a">中青旅商务差旅</a>
+                    <a href="#" target="_blank" class="coll_a"> 中青旅山水酒店</a>
+                    <a href="#" target="_blank" class="coll_a">中青旅高端旅游</a>
+                    <a href="#" target="_blank" class="coll_a">中青旅联盟</a>
+                </div>
+                <div class="helpcol6">
+                    <div class="tt">关注遨游网</div>
+                    <div>关注我们的微博，微信，促销活动随时掌握。</div>
+                    <a class="weibo_icon" href="#" target="_blank">加关注</a>
+                    <p>15万</p>
+                </div>
+                <div class="helpcol7">
+                    <div>微信账号：aoyoucom</div>
+                    <div class="wx"></div>
+                </div>
+            </div>
+            <div class="maps">
+                <a href="#" target="_blank" class="maps_a">关于我们</a>
+                <a href="#" target="_blank" class="maps_a">联系我们</a>
+                <a href="#" target="_blank" class="maps_a">人才招聘</a>
+                <a href="#" target="_blank" class="maps_a">法律声明</a>
+                <a href="#" target="_blank" class="maps_a">友情链接</a>
+                <a href="#" target="_blank" class="maps_a">商务合作</a>
+            </div>
+            <div class="kexin clearfix">
+                <div class="kexin_as">
+                    <a href="#" target="_blank" class="kexin_a1"></a>
+                    <a href="#" target="_blank" class="kexin_a2"></a>
+                </div>
+            </div>
+            <div><p class="wenben">旅行社业务经营许可证编号： L-BJ-CJ00003</p></div>
+            <div class="copyright"></div>
+        </div>
+    </div>
+    
+    <!-- 右边栏 -->
+    <div class="side-nav" style="position: fixed; top: 200px;">
+        <div class="first"></div>
+        <ul class="clearfix clearfix-ul">
+            <li class="on clearfix-li">
+                <span></span>
+                <a href="#wrapper00">门票预售</a>
+            </li>
+            <li class='clearfix-li'>
+                <span></span>
+                <a href="#wrapper01">遨游世园</a>
+            </li>
+            <li class='clearfix-li'>
+                <span></span>
+                <a href="#wrapper02">世园玩法</a>
+            </li>
+            <li class='clearfix-li'>
+                <span></span>
+                <a href="#wrapper03">世园问答</a>
+            </li>
+            <li class='clearfix-li'>
+                <span></span>
+                <a href="#wrapper04">世园十二景</a>
+            </li>
+            <li class='clearfix-li'>
+                <span></span>
+                <a href="#wrapper05">四馆一心</a>
+            </li>
+            <li class='clearfix-li'>
+                <span></span>
+                <a href="#wrapper06">园区一览</a>
+            </li>
+             <li class="goTop">
+                <a href="#body">返回顶部</a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>

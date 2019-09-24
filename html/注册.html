@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>注册</title>
+	<link rel="stylesheet" href="../css/login.css">
+	<script src="../js/login.js"></script>
+</head>
+<body>
+	<form action="/" method="post">    <div class="wrapper">
+	        <div class="logo">
+	            <a href="#" class="logo_a">
+	                <img src="../img/m01-logo.jpg" alt="遨游网">
+	            </a>
+	        </div>
+	        <div class="main">
+	            <div class="reg-main">
+	                <div class="reg-main-h2 clearfix"><em></em><h2>注册用户</h2><p></p></div>
+	                <div class="reg-main-box">
+	                    <label class="reg-main-boxLabel">手机号码：</label>
+	                    <input type="text" name="regmobile" class="reg-input-tel tel" id="tel" placeholder="请输入手机号码">
+	                    <em class="reg-main-star">*</em>
+	                    <p style="display:none;" id="mobileErrMsg" class="reg-main-tips-terms reg-main-tips2-terms blur"></p>
+	                </div>
+	                <div class="reg-main-box">
+	                    <label class="reg-main-boxLabel">请设置密码：</label>
+	                    <input type="text" class="reg-input-tel password" placeholder="请设置密码">
+	                    <input type="password" name="regpwd" class="reg-input-tel password " style="display: none;" id="pwd1">
+	                    <em class="reg-main-star">*</em>
+	                    <p id="pwd1ErrMsg" class="reg-main-tips">请填写5位以上数字、字母或组合；<br>密码区分大小写</p>
+	                </div>
+	                <div class="reg-main-box h18">
+	                    <div class="passwordTipsBox" style="display:block;">
+	                        <p class="passwordTips" style="margin-top: -4.5px;">安全强度：</p>
+	                        <p class="passwordTips1">弱</p>
+	                        <p class="passwordTips1">中</p>
+	                        <p class="passwordTips1">强</p>
+	                    </div>
+	                </div>
+	                <div class="reg-main-box">
+	                    <label class="reg-main-boxLabel">请确认密码：</label>
+	                    <input type="text" class="reg-input-tel password" placeholder="请确认密码">
+	                    <input type="password" name="regpwdconfirm" class="reg-input-tel password" style="display: none;" id="pwd2">
+	                    <em class="reg-main-star">*</em>
+	                    <p class="reg-main-tips reg-main-tips2">请再次输入密码</p>
+	                </div>
+	                <div class="reg-main-box ">
+	                    <div class="reg-main-checkbox" style="margin: 20px 89px 0 100px;">
+	                        <input type="checkbox" id="chkProtocol" checked="checked" class="input-checkbox">
+	                        <p class="reg-main-checkboxP">我已阅读并同意</p><a href="#" target="_blank" class="reg-main-checkboxA">中青旅旅游服务条款</a>
+	                        <p class="reg-main-checkboxP" style="margin-right: 10px">和</p><a href="#" target="_blank" class="reg-main-checkboxA">个人信息收集使用条款</a>
+	                    </div>
+	                    <p style="visibility:hidden;" id="servicetermsErrMsg" class="reg-main-tips-terms reg-main-tips2-terms blur">请接受服务条款</p>
+	                </div>
+	                <div class="reg-main-box ">
+	                    <a href="登录.html" id="regBtn" class="subBtn">立即注册</a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</form>
+</body>
+</html>

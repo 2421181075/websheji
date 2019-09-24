@@ -1,0 +1,347 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+  width:100%;
+}
+.div1{
+     width: 1500px;
+     height: 60px;
+     display: table-cell; 
+     vertical-align: middle;
+     text-align: center;
+     background:#f6f6f6;
+}
+
+.h-img01{
+	width: 1200px;
+    height: 60px;
+}
+
+.div2{
+	width:100%;
+	height:35px;
+    background:#f6f6f6;
+    overflow:hidden;
+}
+
+.div3{
+	width:100%;
+	height:100px;
+	padding:20px 0 0 0;
+    background: white;
+}
+ .div3 .header-inner {
+    width: 1200px;
+    margin: 0 auto;
+    height: 0;
+}
+
+.div3 .header-inner .site-logo {
+    float: left;
+    width: 157px;
+    height: 55px;
+    margin-top: 20px;
+}
+
+.div3.header-inner .site-logo a {
+    display: block;
+    width: 155px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+.div3 .header-inner .local-city {
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+	dispaly: inline;
+	position: relative;
+	font-size: 14px;
+	color: #666;
+   
+}
+
+.div3 .header-inner .local-city .head-start-city {
+   position: relative;
+}
+
+.div3 .header-inner .local-city .head-start-city .sc-name {
+	cursor: pointer;
+	color: #333333;
+	margin-top: 8px;
+}
+
+
+
+.div3 .header-inner .search-box {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    margin-left: 164px;
+    left: 3px;
+    width: 535px;
+    height: 50px;
+    z-index: 101;
+}
+
+.div3 .header-inner .search-box .search-bar {
+    width: 90px;
+    background: #fff;
+    border: 1px solid #DCE0E0;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 100;
+    top: 48px;
+    left: 0px;
+    display: none;
+    zoom: 1;
+}
+
+.div3 .header-inner .search-box .search-bar .type-s {
+    width: 73px;
+    height: 30px;
+    padding-left: 15px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #000;
+    cursor: pointer;
+}
+
+.div3 .header-inner .search-box .search-bar .type-s.hidden {
+    display: none;
+}
+
+.div3 .header-inner .search-box .search-bar .type-s:hover {
+    color: #1F99F4;
+    text-decoration: underline;
+}
+
+
+.div3 .header-inner .search-box .search-inner-box {
+    border-radius: 4px;
+    border: 1px solid #DBDBDB;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.08);
+    float: left;
+    position: relative;
+}
+
+.div3 .header-inner .search-box .s-select {
+    position: relative;
+    float: left;
+    cursor: pointer;
+    width: 94px;
+    height: 48px;
+    line-height: 48px;
+    background: #fff;
+    color: #999;
+    padding-left: 14px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    overflow: hidden;
+    border-right: 1px solid #DCE0E0;
+}
+
+.div3 .header-inner .search-box .s-select .border-up {
+    position: absolute;
+    top: 23px;
+    left: 70px;
+    background-position: 0px -129px;
+    width: 7px;
+    height: 4px;
+}
+
+.div3 .header-inner .search-box .s-select span {
+    font-size: 12px;
+    line-height: 50px;
+    display: block;
+    width: 74px;
+    height: 49px;
+}
+
+
+.div3 .header-inner .search-box .s-input input {
+    display: block;
+    width: 349px;
+    height: 50px;
+    line-height: 50px;
+    border: 0 none;
+    padding: 10px;
+    border: 2px solid #DCE0E0;
+    border-left:0;
+    outline: none;
+    background: none;
+}
+
+.div3 .header-inner .search-box .s-input button {
+    position: absolute;
+    padding: 0;
+    left:370px;
+    top: 7px;
+    width: 62px;
+    height: 36px;
+    border: none;
+    display: block;
+   background-color: red;
+    cursor: pointer;
+}
+
+
+
+.div3 .header-inner .site_contact {
+    float: right;
+    margin-top: 25px;
+    height: 45px;
+}
+
+.div3 .header-inner .site_contact .headercommon-text {
+    font-family: "Microsoft yahei";
+    font-size: 16px;
+    border: none;
+    color: #333333;
+    box-shadow: none;
+    width: auto;
+}
+
+.div3 .header-inner .site_contact .headercommon-text .icon-tel {
+    display: inline-block;
+    background-position: 0px -151px;
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+    vertical-align: -2px;
+    vertical-align: middle;
+}
+
+.div3 .header-inner .site_contact .tel {
+    font-family: "Microsoft yahei";
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 2px;
+    color: red;
+}
+
+.div4{
+    width:1200px;
+    height:50px;
+    margin:auto;
+    margin-top:20px;
+    position: relative;
+}
+
+.div4 .menu-panel {
+    width:100%;
+    margin: 0 auto;
+    background-color: #F5692C;
+    height: 40px;
+    border-radius: 3px;
+}
+.div4 .menu-panel .menu-list {
+    margin-left: 0;
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+.div4 .menu-panel .menu-list li {
+    float: left;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    max-width: 106px;
+    list-style: none;
+    overflow: visible;
+}
+
+.div4 .menu-panel .menu-list li a {
+    padding: 0 9px;
+    font-size: 15px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+
+}
+.div4 .menu-panel .menu-list li a:hover {
+   background:#ffff80;
+}
+
+.div4 .menu-panel .menu-list li a img {
+    position: relative;
+    top: 11px;
+    display: block;
+}
+
+.div4 .menu-panel .menu-list li .special-tip {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: -40px;
+    left: -28%;
+    padding: 0 4px;
+}
+
+
+.div4 .list-right {
+   float: right;
+}
+
+.div4 .list-right ul {
+    width: 80px;
+}
+.div4 .list-right ul li.has-arrow {
+    width: 80px;
+    text-align: center;
+}
+
+.div4 .list-right ul li {
+    float: left;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    max-width: 106px;
+    border-bottom: none;
+    position: relative;
+    z-index: 3;
+    overflow: visible;
+    display: inline;
+}
+
+.div4 .list-right ul li a {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 5px;
+    white-space: nowrap;
+    color: #fff;
+}
+
+
+ .div4 .menu-panel .menu-list li .special {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    padding: 0px 4px;
+    color: #F83616;
+    font-size: 12px;
+    background: #ffd45c;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+
+.div4 .menu-panel .menu-list li .special em {
+    display: block;
+    width: 5px;
+    height: 8px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    text-indent: -999px;
+    overflow: hidden;
+}

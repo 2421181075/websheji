@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>详情页</title>
+     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../css/heater.css">
+        <link rel="stylesheet" href="../css/xiangqing.css">
+        <link rel="stylesheet" href="../font/iconfont.css">
+        <script src="../font/iconfont.js"></script>
+        <script src="../js/jquery-3.4.1.js"></script>
+        <script>
+        	$(function(){
+        		$('.uls').click(function(){
+        			console.log($(this).index());
+        			var src = $(this).children().attr('src');
+        			var r=$(this).index();
+        			switch(r){
+        				case 0:
+    						$('#imgShuffling0').css('opacity','1');
+    						$('#imgShuffling1').css('opacity','0');
+    						$('#imgShuffling2').css('opacity','0');
+    						break;
+        				case 1:
+        					$('#imgShuffling0').css('opacity','0');
+    						$('#imgShuffling1').css('opacity','1');
+    						$('#imgShuffling2').css('opacity','0');
+    						break;
+        				case 2:
+        					$('#imgShuffling0').css('opacity','0');
+    						$('#imgShuffling1').css('opacity','0');
+    						$('#imgShuffling2').css('opacity','1');
+    						break;
+        			}
+        			
+        		});
+        	})
+        </script>
+       
+    </head>
+    <body>
+      <!-- 头-->
+	<div class="div2">
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		       
+		        <li><a href="#"><img src="../img/h02.JPG" alt="">中青旅A股上市（600138）中国光大集团成员企业</a></li>
+		        <li><a href="#" style="font-size:12px;">2019世圆会全球合作伙伴 品质生活系统提供者</a></li>
+		        <li> <a href="#" target="_blank" ><img src="../img/h03.JPG" alt="">登录</a></li>
+		        <li> <a href="#" target="_blank" >注册</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我的订单 <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">旅游度假</a></li>
+		            <li><a href="#">机票</a></li>
+		            <li><a href="#">签证</a></li>
+		            <li><a href="#">当地玩乐</a></li>
+		            <li><a href="#">门票</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我的遨游 <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">我的积分</a></li>
+		            <li><a href="#">我的优惠券</a></li>
+		            <li><a href="#">积分商城</a></li>
+		            <li><a href="#">遨游俱乐部</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		      <ul class="nav navbar-nav">
+		        <li>
+		          <a class="iconfont icon-wechat"></a>
+		        </li>
+		        <li>
+		          <a class="iconfont icon-shouji"></a>
+		        </li>
+		        <li> <a href="#" target="_blank" >连锁店</a></li>
+		        <li><a href="#">互通卡</a></li>
+		        <li> <a href="#" target="_blank" >帮助</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</div>
+
+
+	<div class="div3">
+		<div class="header-inner" >
+		    <div class="site-logo">
+		        <a href="">
+		            <img src="../img/h04.jpg" style="width:157px;height:48px;" alt="遨游网">
+		        </a>
+		    </div>
+
+		    <div class="local-city">
+		        <div class="head-start-city">
+		            <p class="sc-name"><i class="iconfont icon-dizhi1"></i><span>北京</span></p>
+		        </div>
+		    </div>
+
+
+		      <div class="search-box" id="yui_3_5_1_1_1568618462644_109">
+		            <div id="tnSearchBox" class="search-inner-box clearfix">
+		                <div class="s-select">
+		                    <span class="iconfont icon-xiala">全部产品</span>
+		              
+		                </div>
+		            </div>
+		             <p class="s-input">
+		                <input id="homeSearchInput" type="text" style="color:#999999;" value="十一出游季">
+		                <button id="indexSearchBtn">搜索</button>
+		            </p>  
+		           
+		        </div>
+		      
+		    <div class="site_contact" id="head-service-phone">
+		        <p class="headercommon-text"><em class="iconfont icon-dianhua"></em>客服电话</p>
+		        <p class="tel">400-600-6666</p>
+		    </div>
+	  </div>
+	</div> 
+
+	<div class="div4">
+		<div class="menu-panel">
+		    <ul class="menu-list">
+		            <li class="selected">
+		                <a href="../index.html" target="_self">
+		                    首页
+		                </a>
+		            </li>
+		            <li>
+		                <a href="" target="_self">
+		                    抢游惠
+		                </a>
+		            </li>
+		            <li>
+		                <a href="" target="_self">
+		                    百变自由行
+		                </a>
+		            </li>
+		            <li>
+		                <a href="" target="_self">
+		                    跟团游
+		                </a>
+		            </li>
+		            <li class="">
+		                <a href="" target="_self">
+		                    邮轮
+		                </a>
+		            </li>
+		            <li>
+		                <a href="" target="_self">
+		                    签证
+		                </a>
+		            </li>
+		            <li class="">
+		                <a href="" target="_self">
+		                    机票
+		                </a>
+		            </li>
+		            <li>
+		                <a href="" target="_self">
+		                    酒店＋
+		                </a>
+		            </li>
+		            <li>
+		                <a href="" target="_self">
+		                    当地玩乐
+		                </a>
+		            </li>
+		             <li class="">
+		                <a href="shuyuanhui.html" target="_self">
+		                    <img src="../img/h05.png">
+		                    <span class="special-tip">
+		                        <img src="../img/h06.png">
+		                    </span>
+		                </a>
+		            </li>
+
+		            <li>
+		                <a href="" target="_self">
+		                    游学
+		                </a>
+		            </li>
+		            <li class="">
+		                <a href="" target="_self">
+		                    康养
+		                </a>
+		            </li>
+		            <li>
+		                <a href="" target="_self">
+		                    耀悦
+		                </a>
+		            </li>
+		            <li class="">
+		                <a href="../html/lvyou.html" target="_self">
+		                    乡村旅游
+		                </a>
+		            </li>
+		            <li class="">
+		                <a href="" target="_self">
+		                    阳光遨游  
+		                    <span class="special">金融<em></em></span> 
+		                </a>
+		            </li>
+		            <li class="">
+		                <a href="" target="_self">
+		                    遨游定制
+		                    <span class="special">满额有礼<em></em></span>
+		                </a>
+		            </li>
+		            <li class="">
+		                <a href="" target="_self">
+		                    出境福利
+		                    <span class="special">刷卡返利<em></em></span>
+		                </a>
+		            </li>
+		    </ul>
+		   <div class="list-right">
+		        <ul class="clearfix">
+		            <li class="has-arrow">
+		                <a href="javascript:void(0);">景区•攻略<i class="ico-triangle"></i></a>
+		            </li>
+		        </ul>
+		    </div>
+		</div>
+	</div>
+
+      <!-- 主体 -->
+	<div class="wrapper">
+	    <input type="hidden" id="h_productid" value="4111"/>
+	    <input type="hidden" id="h_producttype" value="29" />
+	    <input type="hidden" id="h_contracttype" value="0" />
+	    <input type="hidden" id="h_year" value="2019" />
+	    <input type="hidden" id="h_month" value="9" />
+	    <input type="hidden" id="h_baseprice" value="80.0" />
+	    <input type="hidden" id="h_maxday" value="0" />
+	    <input type="hidden" id="h_minday" value="0" />
+	    <input type="hidden" id="h_maxwifi" value="5" />
+	    <input type="hidden" id="h_type" value="2" />
+	    <input type="hidden" id="h_classinfo" value="107" />
+	    <input type="hidden" id="h_destination" value="北京世园会园区位于延庆新城集中建设区西部，横跨妫河两岸。" />
+	    <input type="hidden" id="h_maintitle" value="【当天和次日票】 2019年中国北京世界园艺博览会门票" />
+	    <input type="hidden" id="h_individualUnit" value="张" />
+	    <input type="hidden" id="h_stockconfirmtype" value="2" />
+	    <input type="hidden" id="h_showtype" value="26" />
+	    <input type="hidden" id="h_startdate" value="14:00:00" />
+	    <input type="hidden" id="h_enddate" value="15:00:00" />    
+	    <input type="hidden" id="h_syhType" value="2" />
+		<div class="innerwrapper">
+
+		   <!-- 面包屑-页面所处位置 Begin -->
+			<div class="breadCrumb">
+			    <ul class="breadCrumb-ul clearfix">
+			        <li class="fl breadCrumb-li">您的位置:</li>
+			        <li class="fl breadCrumb-li"><a href="../index.html">首页</a></li>
+			        <li class="fl breadCrumb-li">&gt;</li>
+			            <li class="fl breadCrumb-li"><a href="#">票券</a></li>
+			        <li class="fl breadCrumb-li">&gt;</li>
+			        <li class="fl breadCrumb-li">【当天和次日票】 2019年中国北京世界园艺博览会门票</li>
+			    </ul>
+			</div>
+		<!-- 面包屑-页面所处位置 End -->
+		<!-- 主标题 Begin -->
+			<div class="mainTitle " id="pl">
+			    <p class="icon-default icon-pq">世园会</p>
+			       
+			        <h1 class="fl mainTitle-h1" title="【当天和次日票】 2019年中国北京世界园艺博览会门票">【当天和次日票】 2019年中国北京世界园艺博览会门票</h1>
+			    <span class="fl mainTitle-subtitleBox">
+			            <p class="fl mainTitle-subtitle-txt ">2019年中国北京世界园艺博览会指定日/平日门票</p>
+			    </span>
+			</div>
+		<!-- 主标题 End -->
+
+		    <!-- 产品信息 Begin -->
+			<div class="productInfoBox clearfix">
+			    
+			    <div class="fl productInfoBox-left">
+			<!-- 轮播图片 Begin -->
+					<div class="fl productInfoBox-pic" id="piclist">
+						<div class="fl productInfoBox-picShow div_m">
+						            <img id="imgShuffling0" src="../img/m_xq1.jpg" width="570" height="428" alt="产品图片" >
+						            <img id="imgShuffling1" src="../img/m_xq2.jpg" width="570" height="428" alt="产品图片" >
+						            <img id="imgShuffling2" src="../img/m_xq3.jpeg" width="570" height="428" alt="产品图片">
+
+						</div>
+						<div class="fl productInfoBox-picGetReady">
+						    <ul class="clearfix clearfix-ul">
+						            <li class="productInfoBox-picGetReadyPic productInfoBox-picGetReadyPicHover uls">
+						                <img src="../img/m_xq4.jpg" width="96" height="74">
+						            </li>
+						            <li class="productInfoBox-picGetReadyPic uls">
+						                <img src="../img/m_xq5.jpg" width="96" height="74">
+						            </li>
+						            <li class="productInfoBox-picGetReadyPic uls">
+						                <img src="../img/m_xq6.jpeg" width="96" height="74">
+						            </li>
+						    </ul>
+						</div>
+					<div class="fl productInfoBoxAuthor">图片来源：供应商</div>
+					</div>
+			<!-- 轮播图片 End -->
+			    </div>
+			    <!-- 产品信息 Begin -->
+			    <div class="fr productInfoBox-des">
+
+				<div class="fl productInfoBox-des-id">产品编号：4111</div>
+				<div class="fr productInfoBox-des-total"><em></em></div>
+				<div class="fr productInfoBox-des-total">销量<em>227</em>份</div>
+				<div class="fl productInfoBox-price">
+				<p class="productInfoBox-price-offline">市场价：¥<span class="del" id="markprice">160</span></p>
+
+				<div class="productInfoBox-price-aoyou">
+				    遨游价：¥ <em>80</em>起
+				    <i id="i_qijiashuoming">[起价说明]</i>
+				    <div id="divSoldOut" class="btn-book fr"><span style="font-size:18px">已售罄</span></div>
+				    <input type="hidden" id="hidErWeiMa" value="#" />        
+				</div>
+				<div class="couponinfo fr hidden" id="couponinfo">
+				    <a href="#" target="_blank">
+				        <span class="tag-coupon">
+				            <em></em>
+				        </span>
+				    </a>
+				</div>
+				<div class="qijiatip_pop">
+				    <div class="tip" id="div_qijiashuoming" style="display: none;">
+				        <p>该产品套餐最低价，实际价格会根据您所选择的个数或套餐变化而变化。</p>
+				    </div>
+				</div>
+				</div>
+				<div class="fl product-features" id="divPreferential"></div>
+					<div class="fl product-featurebox">
+						<div class="features-list clearfix">
+				            <div class="fl productInfoBox-desBox">
+				                <span class="fl">景区级别:</span>
+				                <span class="productInfoBox-desBoxCont">2019年中国北京世界园艺博览会是经国际园艺生产者协会批准、国际展览局认可，由中国政府主办、北京市承办的高级别的世界园艺博览会。</span>
+				            </div>
+				            <div class="fl productInfoBox-desBox">
+				                <span class="fl w70">景区特色:</span>
+				                    <span class="fl productInfoBox-desBoxCont" style="line-height:none;">绿色生活，美丽家园。以园艺为媒介，引领人们尊重自然、融入自然，牢固树立绿色、低碳、环保的生产生活理念，共同建设多姿多彩的美好家园。</span>
+				            </div>
+				            <div class="fl productInfoBox-desBox">
+				                <span class="fl w70">景区地址:</span>
+				                <span class="fl productInfoBox-desBoxCont">北京世园会园区位于延庆新城集中建设区西部，横跨妫河两岸。</span>
+				            </div>
+						</div>
+					<div class="featureshow"><span stat="close" class="icon-sarrowdown"></span></div>
+					</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+    <!-- 预定文本框 Begin -->
+	<div class="info_detail_con">
+	    <div class="info_reserve clearfix" id="middle">
+
+	        <!-- 出行选择 begin-->
+	        <div class="info_travel clearfix">
+	            <div class="info_travel_left shiyuanhuidate_box fl">
+	                <h2>选择日期</h2>
+	                <div class="input_date fl shiyuanhuidate" id="calendar_ico">
+	                    <span class="input_data_span" id="input_data_span">2019-9-21(星期六)</span>
+	                    <span class="input_date_stock"></span>
+	                    <div class="detail_calendar_warp" id="detail_calendar_warp">
+	                    </div>
+	                </div>
+	                <i id="beforedayinfo">当天20:00可预订</i>
+	            </div>
+		<div id="numbertype" class="fl">
+			<div class="info_travel_middle shiyuanhui clearfix" id="yui_3_5_1_1_1569035923045_110">
+			    <h2>套餐类型</h2>
+			    <div class="row_choose package_sec clearfix" id="yui_3_5_1_1_1569035923045_109">
+			            <div class="row_item selected sjhclass" id="yui_3_5_1_1_1569035923045_108">
+			                <b></b><a title="上午入园：8:00-13:00" id="9377" data-stock="60" data-flag="1" datasrc="0" href="javascript:void(0);">上午入园：8:00-13:00</a>
+			            </div>
+			            <span class="row_item_stock">舒适</span>
+			            <div class="row_item sjhclass">
+			                <b></b><a title="下午入园：13:00-20:00" id="9378" data-stock="77" data-flag="2" datasrc="0" href="javascript:void(0);">下午入园：13:00-20:00</a>
+			            </div>
+			            <span class="row_item_stock">舒适</span>
+			    </div>
+			</div>
+		</div>
+	    <div id="groupprice" class="hidden"></div>
+	        </div>
+	        <!-- 出行选择 end-->
+		<div id="pricetype">
+		<div class="info_travel_middle shiyuanhui fl clearfix">
+		    <h2>选择数量</h2>
+		        <ul class="shiyuanhuiul  clearfix" datasrc="0">
+		            <li class="ft_gray">普通票<i class="icon" data-code="9374"></i></li>
+		            <li class="ft_price" id="9374">¥<font>120</font>/张</li>
+		            <li>
+		                <div class="wrap_input_num">
+		                    <a href="javascript:void(0)" class="num_reduce ">-</a>
+		                    <input id="9374" class="num_lable" value="2" gid="3857246">
+		                    <a href="javascript:;" class="num_add">+</a>
+		                </div>
+		            </li>
+		            <li class="ft_calculate" value="240">¥<font>240</font></li>
+		            <li class="ft_tip"></li>
+		        </ul>
+		        <ul class="shiyuanhuiul  clearfix" datasrc="0">
+		            <li class="ft_gray">学生优惠票</li>
+		            <li class="ft_price" id="9375">¥<font>80</font>/张</li>
+		            <li>
+		                <div class="wrap_input_num">
+		                    <a href="javascript:void(0)" class="num_reduce disable">-</a>
+		                    <input id="9375" class="num_lable" value="0" gid="3857260">
+		                    <a href="javascript:;" class="num_add">+</a>
+		                </div>
+		            </li>
+		            <li class="ft_calculate" value="0">¥<font>0</font></li>
+		            <li class="ft_tip"></li>
+		        </ul>
+		        <ul class="shiyuanhuiul borderR0 clearfix" datasrc="0">
+		            <li class="ft_gray">老人优惠票</li>
+		            <li class="ft_price" id="9376">¥<font>80</font>/张</li>
+		            <li>
+		                <div class="wrap_input_num">
+		                    <a href="javascript:void(0)" class="num_reduce disable">-</a>
+		                    <input id="9376" class="num_lable" value="0" gid="3857274">
+		                    <a href="javascript:;" class="num_add">+</a>
+		                </div>
+		            </li>
+		            <li class="ft_calculate" value="0">¥<font>0</font></li>
+		            <li class="ft_tip"></li>
+		        </ul>
+		</div></div>
+
+	        <form id="forms" class="submite" action="" method="POST">
+	            <input type="hidden" id="BookingInfo" name="BookingInfo">
+	            <div class="base_price"><span>总价：</span>¥&nbsp;<strong>240</strong></div>
+	            <span class="submit_btn">立即预订</span>
+	        </form>
+	    </div>
+	</div>
+
+	<!-- 导航 -->
+	<div class="wrapper_nav" id="yui_3_5_1_1_1569036402872_132">
+	    <div class="innerwrapper clearfix" id="yui_3_5_1_1_1569036402872_131">
+	        <ul id="ulWrapperNav" class="wrapper_nav_list clearfix">
+	                    <li class="wrapper_nav_list_li now" id="yui_3_5_1_1_1569036402872_169"><a href="#" style="width: 85px;" id="yui_3_5_1_1_1569036402872_168">服务介绍</a></li>
+	                    <li class="wrapper_nav_list_li" id="yui_3_5_1_1_1569036402872_130"><a href="#" style="width: 85px;" id="yui_3_5_1_1_1569036402872_129">费用说明</a></li>
+	                <li class="wrapper_nav_list_li" id="yui_3_5_1_1_1569036402872_138"><a href="#method" style="width: 85px;" id="yui_3_5_1_1_1569036402872_137">使用方法</a></li>
+	                    <li class="wrapper_nav_list_li" id="yui_3_5_1_1_1569036402872_144"><a href="#attention" style="width: 85px;" id="yui_3_5_1_1_1569036402872_143">注意事项</a></li>
+	                    <li class="wrapper_nav_list_li" id="yui_3_5_1_1_1569036402872_150"><a href="#follow" style="width: 85px;" id="yui_3_5_1_1_1569036402872_149">先睹为快</a></li>
+	                    <li class="wrapper_nav_list_li" id="yui_3_5_1_1_1569036402872_156"><a href="#refund" style="width: 85px;" id="yui_3_5_1_1_1569036402872_155">退改政策</a></li>
+	                <li class="wrapper_nav_list_li hidden" id="khdp" style="display: list-item;"><a href="#khdpcontent" style="width: 85px;" id="yui_3_5_1_1_1569036402872_161">客户点评</a></li>
+	                <li class="wrapper_nav_list_li hidden" id="productrecnav"><a href="#tuijian" style="width: 85px;">遨游推荐</a></li>
+
+	        </ul>
+	            <a href="#middle" class="wrapper_nav_ydBtn" style="display: none;">立即预订</a>
+	    </div>
+	</div>
+
+	<!-- 导航内容 -->
+	<div class="innerwrapper clearfix">
+	    <div class="cpdetail_con" id="divProTextInfo" data-tipwifirecommend="1" data-tipstatus="30" data-staticpagecity="">
+	    <div class="content-box">
+	        <h3 class="cpdetail_tit cpdetail_tit_service" id="service">服务介绍</h3>
+	        <table cellspacing="0" cellpadding="0" class="cpdetail_fysm">
+	            <tbody>
+	                                                                                                                                   <tr>
+	                        <th>场馆简介</th>
+	                    </tr>
+	                    <tr>
+	                        <td>
+	                            2019年中国北京世界园艺博览会以“绿色生活 美丽家园”为主题，秉持“让园艺融入自然 让自然感动心灵”的理念，旨在展现人类生态文明建设丰硕成果和世界园艺发展最新成就，传播绿色发展理念，促进世界各国文化的交流融合，推进园艺科技进步和可持续发展，提高公众生态保护意识和园艺欣赏水平，引导园艺产品消费，促进世界园艺贸易与合作，激发人们积极践行绿色生活方式，探索人与自然和谐共处的未来发展之路。
+	                        </td>
+	                    </tr>
+	                                                    <tr>
+	                        <th>开放时间</th>
+	                    </tr>
+	                    <tr>
+	                        <td>
+	                            北京世园会举办日期为2019年4月29日（开园日）至10月7日（闭园日），共162天，其中指定日15天，4月29日为开园日，面向公众售票的指定日包括“五一”假期（2019年5月1日）、端午节（2019年6月7日、8日及9日）、中秋节（2019年9月13、14及15日）、“十一”假期（含闭幕日，2019年10月1日至10月7日）；指定日以外的举办日期为平日，共147天。<br><br>北京世园会开园时间为上午8:00，入园截止时间为20:00，闭园时间为晚上21:00。<br>游客通过北京世园会线上渠道购票时须同时预约入园日期及时段，上午时段是指8:00-13:00，下午时段是指13:00-20:00。北京世园会每日入园人次上限为19万人，线上购票提前预售，售完为止；现场仅售当日票。
+	                        </td>
+	                    </tr>
+                </tbody>
+	        </table>
+	    </div>
+	    <div class="content-box">
+	        <h3 class="cpdetail_tit cpdetail_tit_fysm" id="fysm">费用说明</h3>
+	        <table cellspacing="0" cellpadding="0" class="cpdetail_fysm">
+	            <tbody>
+                            <tr>
+                                <th>费用包含</th>
+                            </tr>
+	                        <tr>
+	                            <td>2019年中国北京世界园艺博览会门票<br></td>
+	                        </tr>
+                            <tr>
+	                        	<th>费用不含</th>
+	                    	</tr>
+	                    	<tr>
+	                        	<td>除费用包含以外的其他一切未提及费用。<br></td>
+	                    	</tr>
+                            <tr>
+	                        	<th>儿童界定</th>
+	                    	</tr>
+                    	<tr>
+	                        <td>
+	                            1，适用6周岁以上且身高超过1.3米的儿童【14周岁以下，即2005年1月1日及之后出生的人士】<br>2，购票及入园时需出示相关有效证件，限一人在指定日或平日入园一次。
+	                        </td>
+	                    </tr>
+	            </tbody>
+	        </table>
+	    </div>
+	    <div class="content-box">
+	    <h3 class="cpdetail_tit cpdetail_tit_method" id="method">使用方法</h3>
+	    <table cellspacing="0" cellpadding="0" class="cpdetail_fysm">
+	        <tbody>
+                    <tr>
+	                    <th class="method_table_title">预订须知</th>
+	                </tr>
+	                <tr>
+	                    <td>
+	                        <h3 style="text-align:center;"><span style="color:#E56600;">重要提示</span></h3><p><br></p><p style="text-align:left;margin-left:36pt;text-indent:-36pt;">1，北京世园会购票实行实名制，所有购票游客须录入二代身份证（或有效护照、港澳居民来往内地通行证、台湾居民来往大陆通行证）信息。<span></span></p><p style="text-align:left;margin-left:36pt;text-indent:-36pt;">&nbsp; &nbsp; &nbsp;中国大陆居民只能使用身份证购买门票。</p><div style="text-align:left;">2，<span>其他优惠票适用人群（包括残疾人士、中国现役军人、全日制普通高等教育阶段在校学生<span>、</span>消防救援人员）须在现场（</span><span>1</span><span>、</span><span>2</span><span>、</span><span>5</span><span>号门区）指定窗口进行购票，须同时出具本人有效二代身份证及有效优惠证件。</span></div><p><br></p><p style="text-align:left;"><span>3，</span><span>持二代身份证、护照、港澳来往内地通行证或台湾居民来往大陆通行证入园的游客，如在参观当日实际入园时间在</span><span>16:00</span><span>（含）以后（通过系统自动识别），第二日若有入园需求，可直接刷证入园（但“参观当日为平日，而第二日为指定日”的情况除外）。</span></p><p style="text-align:left;"><span>4，</span><span>所有渠道当日入园门票的停止售票时间为20</span><span>：</span><span>00</span><span>。</span></p><p style="text-align:left;"><span>5，</span><span>在未验票的情况下，线上购票的游客可在预约入园当日20</span><span>:00</span><span>前在原购票渠道申请退票或改签</span><span>1</span><span>次，改签时指定日门票可以改签到该申请发起日后任一指定日或任一平日（差价不予退还），平日门票可以改签到该申请发起日后任一平日；如预约当日未入园，且未在预约当日20</span><span>:00</span><span>前进行门票改签或退票操作的，则视为已作废，无法改签或退票。</span></p><p><br></p><p><br></p>
+	                    </td>
+	                </tr>
+	           
+
+	                <tr>
+	                    <th class="method_table">出游凭证</th>
+	                </tr>
+	                <tr>
+	                    <td>
+	                        <div class="clearfix">
+
+
+	<span>北京世园会购票实行实名制，所有游客需登记有效身份信息。中国大陆居民登记二代身份证信息，外籍人士登记护照信息，中国港澳居民登记港澳居民来往内地通行证（回乡证）信息，中国台湾居民登记台湾居民来往大陆通行证(台胞证)信息。</span><span></span>                        </div>
+	                    </td>
+	                </tr>
+                    <tr>
+	                    <th class="method_table">如何使用</th>
+	                </tr>
+	                <tr>
+	                    <td>
+	                        1，个人票游客在预约当日须持购票时登记的有效身份证件入园。<br>2，线上购票或现场窗口购票时登记了有效二代身份证信息的游客，在预约当日持身份证在1号门、2号门、5号门直接入园，无需兑换纸质入园凭证。<br>3，线上购票时登记了护照的外籍人士、登记了港澳居民来往内地通行证的中国港澳居民、登记了台湾居民来往大陆通行证的中国台湾居民，在预约当日持购票时登记的有效证件在1号门、2号门的指定通道直接入园，无需兑换纸质入园凭证。<br>4，购买优惠票的游客，入园时凭有效二代身份证件或临时入园凭证通过指定通道检票入园，同时出示优惠证件原件。<br>5，世园会门区停止检票时间为当日20:00, 请您留意入园时间。避免错过检票时间无法入园。
+	                    </td>
+	                </tr>
+            </tbody>
+	    </table>
+	</div>
+	                <div class="content-box">
+	                    <h3 class="cpdetail_tit cpdetail_tit_attention" id="attention">注意事项</h3>
+	                    <table cellspacing="0" cellpadding="0" class="cpdetail_fysm">
+	                        <tbody>
+	                            <tr>
+	                                <td>
+	                                    1，线上可销售的优惠门票种类仅限能用身份证识别身份的票种，其余优惠门票只能窗口购买。<br>2，下午16：00之后到达园区的游客，为方便游客深度体验北京世园会，错峰出行减少路途拥堵，同时避开核心展区大客流的困扰，北京世园会特设置“跨夜优惠政策”：每日16:00后入园的游客，第二天可继续入园免费参观（参观当日为平日、第二天为指定日的情况除外）。<br>3，游客通过北京世园会线上渠道购票时须同时预约入园日期及时段，入园日期可以是除世园会开幕日外的任何一天，上午时段是指8:00-13:00，下午时段是指13:00-20:00。北京世园会每日入园人次上限为19万人，线上购票提前预售，售完为止；现场仅售当日票。<br><br>2019年中国北京世界园艺博览会安检须知<br>本须知适用于所有进入世园会封闭区域的人员，进入世园会封闭区域的人员均应接受安全检查。<br>（1）禁止人员带入世园会园区的物品包括：<br>枪支、弹药、爆炸物品；宠物、无人机、风筝、对讲机、扩音器可能妨碍他人参观、影响园区秩序的物品；仿真枪及弩、弓箭、匕首、水果刀等管制器具；烟花爆竹、汽油、酒精、打火机等易燃、易爆危险物品；剧毒、腐蚀性等危险化学品及放射性物品，包括但不限于强酸、放射性同位素等危险物品；有害生物制剂、传染病病原体等危险物质；海洛因、可卡因、大麻、冰毒等各类毒品；中国法律法规明令禁止的其它物品。<br>（2）限制人员带入世园会园区的物品包括：带有政治、种族、宗教、商业和违反中国法律法规的横幅、标语、广告牌、传单等宣传物品；代步工具，包括摩托车、助动车、自行车、电动自行车、机动轮椅车、踏板车、滑板、带轮鞋等，但婴儿车、手推轮椅、电动轮椅除外；无人机、三角翼、滑翔伞、热气球、航空模型、风筝、氢气球、孔明灯等可升空物品；无线电遥控玩具、对讲机等无线电发射设备；易干扰活动的各类物品（如口哨、喇叭、锣鼓、话筒、音响设备等）；其他可能妨碍他人参观、造成他人人身伤害或财产损失、扰乱园区秩序和危害园区安全的物品（棒球棒、长棍、尖锐物等）。<br>
+	                                </td>
+	                            </tr>
+	                            <tr><td>重要提示：我公司不会以任何形式要求客户进行违规刷单操作，提醒您切勿上当受骗，请您在支付前对您所购买的产品进行确认。任何购买者（包括但不限于自然人、旅行社、票务代理公司等）不得恶意购买或刷单，不得将所购产品转售第三方。中青旅遨游网有合理理由怀疑购买者涉嫌前述行为时（如购买者多次购买产品，却使用同一IP地址、预留同一邮箱或联系电话等），中青旅遨游网有权取消相关订单且无须事先告知购买者，并保留向其追究法律责任的权利。</td></tr>
+	                        </tbody>
+	                    </table>
+	                </div>
+	                <div class="content-box">
+	                    <h3 class="cpdetail_tit cpdetail_tit_attention" id="follow">先睹为快</h3>
+	                    <div class="cpdetail_followpic">
+	                        <p style="text-align:center;color:#0F0F0E;font-family:-apple-system-font, BlinkMacSystemFont, &quot;font-size:16px;background-color:#FFFFFF;"><br></p><div style="text-align:center;"><img src="../img/m_xq01.jpg" alt="" width="1160"></div><p><br></p><p style="text-align:center;"><img src="../img/m_xq02.jpg" alt="" width="1160"><img src="../img/m_xq03.jpg" alt="" width="1160"><img src="../img/m_xq04.jpg" alt="" width="1160"><img src="../img/m_xq05.jpg" alt="" width="1160"><img src="../img/m_xq06.jpg" alt="" width="1160"><img src="../img/m_xq07.jpg" alt="" width="1160"><img src="../img/m_xq08.jpg" alt="" width="1160"><img src="../img/m_xq09.jpg" alt="" width="1160"><img src="../img/m_xq010.jpg" alt="" width="1160"> </p>
+	                    </div>
+	                </div>
+	                <div class="content-box">
+	                    <h3 class="cpdetail_tit cpdetail_tit_refund" id="refund">退改政策</h3>
+	                    <table cellspacing="0" cellpadding="0" class="cpdetail_fysm">
+	                        <tbody>
+	                            <tr>
+	                                <th>退改政策</th>
+	                            </tr>
+	                            <tr>
+	                                <td>
+	                                    现场窗口售出的门票一概不退票和改签；线上购票的游客在未使用的情况下，可在预约入园当日20:00前在原购票渠道申请退票或改签1次，改签时指定日门票可以改签到该申请发起日后任一指定日或任一平日（差价不予退还），平日门票可以改签到该申请发起日后任一平日。如预约当日未入园，且未在预约当日20:00前进行门票退票或改签操作的，则门票过期，并视为已作废。<br>如一份订单含多张门票(一张订单最多可次订购6张门票),进行退票或改签操作时,需对整个订单进行退票或改签操作,不支持部分门票退票或改签。
+	                                </td>
+	                            </tr>
+
+	                        </tbody>
+	                    </table>
+	                    <div class="pinglun">
+	                    	<div class="kehupinglun">
+	                    		<p>客户评论区</p>
+	                    	</div>
+	                    	<div class="kehu1">
+	                    		<p>客户1:风景特别好看，值得去拍美照!!!!</p>
+	                    		<img src="../img/ren.png" alt="">
+	                    	</div>
+	                    	<div class="kehu2">
+	                    		<p>客户2:帅哥美女拍照的盛地哦！！！！</p>
+	                    		<img src="../img/ren.png" alt="">
+	                    	</div>
+	                    	<div class="kehu3">
+	                    		<p>客户3:花美，人多！适合游玩。</p>
+	                    		<img src="../img/ren.png" alt="">
+	                    	</div>
+	                    </div>
+	                </div>
+
+	<!-- 评论页码 Begin-->
+	<div class="ui_page_wrap clearfix">
+	    <a href="javascript:void(0)" class="ui_page_curr_0 pagepart hidden"></a>
+	    <div class="ui_page_0" id="pager">
+
+	        <a class="ui_pager_prev_0 disable" href="javascript:void(0)" onclick="">上一页</a><a href="javascript:void(0)" class="ui_page_curr_0 pagepart" onclick="ordereval.EvalInfo(1)">1</a><a href="javascript:void(0)" class="pagepart" onclick="ordereval.EvalInfo(2)">2</a><a href="javascript:void(0)" class="pagepart" onclick="ordereval.EvalInfo(3)">3</a><a href="javascript:void(0)" class="pagepart" onclick="ordereval.EvalInfo(4)">4</a><a href="javascript:void(0)" class="pagepart" onclick="ordereval.EvalInfo(5)">5</a><a href="javascript:void(0)" class="pagepart" onclick="ordereval.EvalInfo(6)">6</a>
+	     
+	        <a class="ui_pager_next_0 disable" href="javascript:void(0)" onclick="ordereval.EvalInfo(2)">下一页</a>
+	    </div>
+	</div>
+	<!-- 评论页码 End-->
+	<!-- 弹出框前后按钮-->
+	<div class="highslide-caption" id="the-caption">
+	    <a href="#" class="lightbox-previous" onclick="return hs.previous(this)"></a>
+	    <a href="#" class="lightbox-next" onclick="return hs.next(this)"></a>
+	</div>
+	<!-- 弹出框前后按钮-->
+	<!-- 客户点评 End -->
+	    </div>
+
+	</div>
+    </body>
+</html>

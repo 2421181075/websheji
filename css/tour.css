@@ -1,0 +1,640 @@
+
+
+.box2 {
+    position:absolute;
+    width: 100%;
+    height: 430px;
+    position: relative;
+}
+
+.hcontentbox {
+    width: 100%;
+    margin: 15px,20px;
+    overflow: hidden;
+    background-color: #e7e7e7;   
+}
+.hmapbox {
+    width: 1200px;
+    margin: 20px auto;
+    text-align: left;
+    color: #999999;
+}
+.hmapbox .map {
+    width: 1070px;
+    margin-left:20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.hxyBox {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 20px;
+    text-align: left;
+    overflow: hidden;
+}
+.hxyBox .wordBox .title {
+    margin-top: 10px;
+    border-bottom: none;
+    padding-bottom: 16px;
+    font-size:28px;
+    color: #333;
+}
+
+.hxyBox .wordBox .title img {
+    height: 26px;
+}
+
+.hxyBox .wordBox .subtitle {
+    margin-top: 0;
+    text-align: left;
+    color: #a665a6;
+    margin-bottom: 20px;
+    font-size:20px;
+}
+
+.hxyBox .wordBox .tipsBox {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.hxyBox .wordBox .tipsBox section {
+    border: 1px solid #a665a6;
+    padding: 0 20px 0;
+    font-size: 18px;
+    color: #666666;
+    float: left;
+    border-radius: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+   
+}
+
+.hxyBox .countBox {
+    float: right;
+    color: #a665a6;
+    font-size: 16px;
+    text-align: right;
+}
+
+.hxyBox .countBox .count {
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.hxyBox .countBox .count2 {
+    font-size: 32px;
+    color: #a665a6;
+}
+
+.hxyBox .countBox .hxytips {
+    color: #ff79bc;
+    margin-bottom: 16px;
+}
+
+.tet3{
+	height:450px;
+	width:100%;
+	position:absolute;
+	margin-top:-50px;
+	position:relative;
+
+}
+.hcontentbox1{
+	width: 1200px;
+    height:400px;
+    margin: 0 auto;
+    position: relative;
+    top:0;
+}
+   
+ .wordBox0 {
+ 	position:absolute;
+    width: 390px;
+    height: 450px;
+    float: right;
+    text-align: left;
+    background-color: #f1f1f1;
+    position: relative;
+    padding: 20px 20px 0;
+    
+}
+
+ .wordBox0 .title {
+    margin-top: 0;
+    border-bottom: none;
+    padding-bottom: 16px;
+    color: #333;
+    text-align:center;
+   
+}
+ .wordBox0 .title img {
+    height: 26px; 
+}
+
+ .wordBox0 .dis {
+    color: #999999;
+    height:260px;
+    margin-bottom: 5px;
+    font-size:18px;
+    line-height: 160%;
+    overflow:hidden;
+    position:relative;
+}
+
+ .wordBox0 .dis .maskPoint {
+    position: absolute;
+    bottom: 7px;
+    right: 150px;
+    line-height: 28px;
+    height: 28px;
+    background-color: #f1f1f1;
+    width: 20px;
+}
+
+ .wordBox0 .butn {
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: #a665a6;
+    color: #ffffff;
+    cursor:pointer;
+    font-size:20px;
+}
+ .wordBox0 .tips {
+    color: #a665a6;
+    margin-top: 16px;
+}
+
+ .wapperBox {
+    width: 800px;
+    height: 450px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.tet4{
+    height:60px;
+    width:100%;
+    position:absolute;
+    position:relative;
+}
+ .tet4 .starPoint {
+    line-height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+ .tet4 .starPoint section {
+    float: left;
+    color: #999999;
+    margin-right: 50px;
+    font-size: 20px;
+}
+ .tet4 .starPoint img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+ .tet4 .starPoint .pointTitle {
+    width: 150px;
+    text-align: center;
+    color: #a665a6;
+    font-size: 20px;
+}
+
+.tet5{
+    height:60px;
+    width:100%;
+    position:absolute;
+    position:relative;
+   
+}
+
+.tet5 .tabGroup {
+    margin: 5px auto 20px;
+    width: 1200px;
+    overflow: hidden;
+}
+.tet5 .tabGroup section {
+    float: left;
+    width: 200px;
+    font-size: 14px;
+    color: #777;
+    height: 50px;
+    line-height: 48px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-right: 3px solid #ffffff;
+    background-color: #efefef;
+    border-top: 2px solid transparent;
+}
+
+.tet5 .tabGroup section:hover {
+    background-color: #ffffff;
+    line-height: 48px;
+    border-top: 2px solid #a665a6;
+    border-radius: 0;
+
+}
+
+.tet6{
+    height:1080px;
+    width:100%;
+    position:absolute;
+    position:relative;
+}
+ .tet6 .tabShow {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 40px;
+    line-height: 200%;
+    min-height: 240px;
+    color: #666666;
+}
+.tet6 .tabShow .point {
+    margin-bottom: 10px;
+}
+.tet6 .tabShow .pointTitle {
+    font-size: 25px;
+    line-height: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.tet6 .tabShow .pointTitle img {
+    width: 20px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.tet6 .tabShow .map {
+    width: 1070px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.tet7{
+    height:5400px;
+    width:100%;
+    margin-top:-20px;
+    position:absolute;
+    position:relative;
+    
+}
+
+.tet7 .dayMessage {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.tet7 .dayMessage .title {
+    text-align: left;
+    font-size: 24px;
+    color: #666666;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #efefef;
+}
+ .tet7 .dayTabBox {
+    position:fixed;
+    width:50px;
+    top:10%;
+    left:0px;
+ }
+
+.tet7 .dayTabBox .dayTab section {
+    width: 50px;
+    text-align: center;
+    height: 40px;
+    background-color: #efefef;
+    line-height: 60px;
+    box-sizing: border-box;
+    color: #666666;
+    border: 1px solid #ffffff;
+    transition: all 0.6s;
+    cursor:pointer;
+}
+
+.tet7 .dayTabBox .dayTab section:hover {
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    border-left: 2px solid #a665a6;
+}
+
+.tet7 .dayTabBox .dayTab .active {
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    border-left: 2px solid #a665a6;
+}
+
+ .dayMessage .dayPointBox .dayPoint {
+    overflow: hidden;
+    padding-top: 10px;
+    position: relative;
+}
+
+ .dayMessage .dayPointBox .dayPoint .imgBox {
+    float: left;
+}
+
+ .dayMessage .dayPointBox .dayPoint .imgBox img {
+    width: 400px;
+    height: 300px;
+}
+
+ .dayPointBox .dayPoint .wordBox {
+    float: right;
+    width: 760px;
+    position: relative;
+    margin-bottom:20px;
+}
+
+
+ .dayPointBox .dayPoint .point {
+    width: 10px;
+    height: 10px;
+    margin-top: 3px;
+    margin-left: -25px;
+    float: left;
+    border-radius: 6px;
+    background-color:#ea00ea;
+}
+
+.dayPointBox .dayPoint .wordBox .title {
+    border-bottom: none;
+    color: #a665a6;
+    line-height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dayPointBox .dayPoint .wordBox .title .important {
+    font-size: 32px;
+}
+
+.dayPointBox .dayPoint .wordBox .dis {
+    text-align: left;
+    color: #999999;
+    line-height: 180%;
+    font-weight: inherit;
+    border-left: 1px solid #ecdeec;
+    padding-left: 20px;
+    margin-left: -20px;
+    padding-top: 80px;
+    margin-top: -80px;
+    position: relative;
+}
+
+ .dayPointBox .dayPoint .wordBox .wordPoint {
+    border-left: 1px solid #ecdeec;
+    padding-left: 20px;
+    margin-left: -20px;
+    padding-bottom: 0px;
+}
+
+ .dayPointBox .dayPoint .wordBox .wordPoint .title {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #666666;
+    padding-bottom: 0;
+}
+
+ .dayPointBox .dayPoint .wordBox .wordPoint .wordDis {
+    padding-left: 28px;
+    font-size: 16px;
+    color: #999999;
+    text-align: left;
+    margin-top: 10px;
+}
+
+ .dayPointBox .dayPoint .wordBox .wordPoint .title img {
+    width: 18px;
+    vertical-align: top;
+}
+
+.tet8{
+    height:600px;
+    width:100%;
+    margin-top:-20px;
+    position:absolute;
+    position:relative;
+  
+}
+
+
+.price .hotelTab {
+    margin: 0px auto 20px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.price .hotelTab .active {
+    border: 1px solid #a665a6 ;
+    border-top: 3px solid #a665a6 ;
+}
+
+.price .hotelTab section {
+    float: left;
+    width: 171px;
+    font-size: 14px;
+    color: #777;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #efefef;
+    border-right: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-top: 3px solid transparent;
+}
+
+.price .hotelTab section:hover {
+    border: 1px solid #a665a6 ;
+    border-top: 3px solid #a665a6 ;
+}
+
+.tet8 .hotelMessage {
+    overflow: hidden;
+    position: relative;
+}
+
+.cor1{
+    display:none;
+}
+.cor2{
+    display:block;
+}
+.tet8 .hotelMessage .Box_h {
+    width: 500px;
+    height: 400px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.tet8  .hotelMessage .wordBox {
+    float: right;
+    text-align: left;
+    width: 680px;
+}
+
+.tet8  .hotelMessage .wordBox .title {
+    margin-top: 0;
+    border-bottom: none;
+    padding-bottom: 16px;
+    color: #333;
+}
+
+.tet8 .hotelMessage .wordBox .title img {
+    height: 16px;
+}
+
+.tet8 .hotelMessage .wordBox .tips {
+    color: #a665a6;
+    margin-bottom: 16px;
+}
+
+.tet9{
+    height:240px;
+    width:100%;
+    margin-top:-20px;
+    position:absolute;
+    position:relative;
+}
+
+ .price {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto 0px;
+    padding-bottom: 30px;
+}
+ .price .title {
+    text-align: left;
+    font-size: 24px;
+    color: #666666;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #efefef;
+}
+ .price .priceBox {
+    border: 3px solid #efefef;
+    margin-top: 10px;
+    padding: 30px 20px 10px;
+    transition: all 0.2s;
+    margin-bottom: 10px;
+}
+
+ .price .priceBox:hover {
+    border: 2px solid #a665a6;
+}
+
+ .price .priceBox .titleSelectBox {
+    overflow: hidden;
+}
+
+ .price .priceBox .titleSelectBox .count {
+    float: right;
+    color: #666666;
+    font-size: 14px;
+}
+
+ .price .priceBox .titleSelectBox .butn {
+    float: right;
+    height: 31px;
+    line-height: 29px;
+    border: 3px solid #a665a6;
+    padding: 0 20px;
+    border-radius: 3px;
+    color: #a665a6;
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+ .price .priceBox .titleSelectBox .butn:hover{
+    background-color: #a665a6;
+    color: #ffffff;
+}
+
+ .priceBox .titleSelectBox .count .important {
+    font-size: 24px;
+    color: #a665a6;
+}
+
+ .priceBox .titleSelectBox .titleSelect {
+    float: left;
+    font-size: 24px;
+    color: #333333;
+    font-weight: bolder;
+}
+
+ .price .tipsBox {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+ .price .tipsBox section {
+    float: left;
+    width: 50%;
+    text-align: left;
+    overflow: hidden;
+    line-height: 100%;
+    color: #999999;
+    font-weight: lighter;
+    margin: 0 0 20px;
+    font-size: 14px;
+}
+
+ .tipsBox section .point {
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    background-color: #999999;
+}
+
+.tet10{
+    height:1150px;
+    width:100%;
+    margin-top:-20px;
+    position:absolute;
+    position:relative;
+}
+.tet10 .price .pointTitle {
+    line-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size:20px;
+}
+
+.tet10 .price .pointTitle section .point {
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    background-color:#ea00ea;
+}
+
+.tet10 .price .pointDis {
+    text-align: left;
+    padding-left: 14px;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 6px;
+}
